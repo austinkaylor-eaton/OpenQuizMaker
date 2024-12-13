@@ -1,0 +1,48 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.0.0
+MinimumVisualStudioVersion = 17.8.0.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenQuizMaker.AppHost", "OpenQuizMaker.AppHost\OpenQuizMaker.AppHost.csproj", "{0CD303A8-7A5E-428A-B282-FB3371EE1198}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenQuizMaker.ServiceDefaults", "OpenQuizMaker.ServiceDefaults\OpenQuizMaker.ServiceDefaults.csproj", "{45CBEBCD-355A-4468-A1F0-6F105A31DB4A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenQuizMaker.ApiService", "OpenQuizMaker.ApiService\OpenQuizMaker.ApiService.csproj", "{FAC31E69-270A-4267-A76F-5AFC68C8AF2D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenQuizMaker.Tests", "OpenQuizMaker.Tests\OpenQuizMaker.Tests.csproj", "{0A389D48-CFC1-4629-A626-B01394EF6129}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenQuizMaker.Web", "OpenQuizMaker.Web\OpenQuizMaker.Web.csproj", "{C41A0738-EA85-4D34-A280-C1316EFEFEEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CD303A8-7A5E-428A-B282-FB3371EE1198}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CD303A8-7A5E-428A-B282-FB3371EE1198}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CD303A8-7A5E-428A-B282-FB3371EE1198}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CD303A8-7A5E-428A-B282-FB3371EE1198}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45CBEBCD-355A-4468-A1F0-6F105A31DB4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45CBEBCD-355A-4468-A1F0-6F105A31DB4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45CBEBCD-355A-4468-A1F0-6F105A31DB4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45CBEBCD-355A-4468-A1F0-6F105A31DB4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAC31E69-270A-4267-A76F-5AFC68C8AF2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAC31E69-270A-4267-A76F-5AFC68C8AF2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAC31E69-270A-4267-A76F-5AFC68C8AF2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAC31E69-270A-4267-A76F-5AFC68C8AF2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A389D48-CFC1-4629-A626-B01394EF6129}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A389D48-CFC1-4629-A626-B01394EF6129}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A389D48-CFC1-4629-A626-B01394EF6129}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A389D48-CFC1-4629-A626-B01394EF6129}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C41A0738-EA85-4D34-A280-C1316EFEFEEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C41A0738-EA85-4D34-A280-C1316EFEFEEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C41A0738-EA85-4D34-A280-C1316EFEFEEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C41A0738-EA85-4D34-A280-C1316EFEFEEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {739FC13C-AB2A-4AD0-B3D0-D8397FB5D81A}
+	EndGlobalSection
+EndGlobal
